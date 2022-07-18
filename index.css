@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* -------------------------------------------- BARRA NEGRA ------------------------------------------------------ */
+
+
+.idioma {
+    width: 100%;
+    height: 3vh;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.idioma span {
+    margin-left: 6vw;
+    margin-right: 4vw;
+}
+
+.idioma ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.idioma li{
+    margin-left: 1vw;
+}
+
+
+/* -------------------------------------------- BANNER ------------------------------------------------------ */
+
+
+.banner {
+    height: 10vh;
+    width: 100%;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner img {
+    margin-left: 3vw;
+    width: 20vw;
+    height: 5vh;
+}
+
+#menu ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 2vw;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 2vw;
+}
+
+.banner span {
+    display: none;
+}
+
+
+/* -------------------------------------------- FLYER ------------------------------------------------------ */
+
+.flyer {
+    width: 100%;
+    height: 50vh;
+    background-image: url(fondoMain.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flyer article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.flyer h2 {
+    background-color: #ffffff;
+    color: #3C2313;
+    width: 25vw;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1vw;
+    margin-right: 2vw;
+}
+
+.flyer h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #3C2313;
+    margin: 1vw;
+}
+
+.flyer button {
+    width: 120px;
+    height: 60px;
+    margin-left: 10vw;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    background-color: #F0A83E;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.destacados {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.destacados i {
+    color: #F0A83E;
+    margin-bottom: 2vh;
+}
+
+.destacados h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #3C2313;
+    margin-bottom: 4vh;
+}
+
+.destecados p {
+    color: #666666;
+}
+
+
+/* -------------------------------------------- CARDS ------------------------------------------------------ */
+
+.cards {
+    width: 100%;
+    height: 55vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards article {
+    background-color: #FBFAF6;
+    min-width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2vw;
+    border-radius: 0.75rem;
+}
+
+.cards img {
+    margin-bottom: 0vw;
+}
+
+.cards h3 {
+    color: #3C2313;
+    margin: 1vw;
+}
+
+.cards p {
+    color: #F0A83E;
+    margin-bottom: 1vw;
+}
+
+/* -------------------------------------------- CONTACT ------------------------------------------------------ */
+
+
+.contacto {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto h3 {
+    color: #3C2313;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 4vh;
+    letter-spacing: 0.1vw;
+}
+
+::placeholder {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.contacto input {
+    width: 30vw;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #3C2313;
+    border-radius: 1rem;
+    padding: 1.5vw;
+    margin-bottom: 1vw;
+}
+
+.contacto div {
+    margin: 3vw;
+}
+
+.contacto div button {
+    margin: 0.5vw;
+    padding: 1vw;
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 120px;
+    border: none;
+    border-radius: 1rem;
+    border: none;
+    color: #ffffff;
+}
+
+.reset {
+    background-color: #8A8787;
+}
+
+.send {
+    background-color: #F0A83E;
+}
+
+
+/* -------------------------------------------- SUSCRIPTION ------------------------------------------------------ */
+
+.suscription {
+    width: 100%;
+    height: 12vh;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suscription div {
+    display: flex;
+}
+
+.suscription .envelope {
+    margin-left: 3vw;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suscription .envelope h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+
+.suscription .email {
+    margin-right: 4rem;
+}
+
+
+.suscription .email input {
+    width: 28vw;
+    height: 7vh;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    color: #3C2313;
+}
+
+.suscription .email button {
+    border: none;
+    border-radius: 1rem;
+    background-color: #3C2313;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0rem 2rem;
+}
+
+
+
+/* -------------------------------------------- FOOTER ------------------------------------------------------ */
+
+footer {
+    width: 100%;
+    height: 50vh;
+    background-color: #3C2313;
+}
+
+
+
+
+/* -------------------------------------------- MEDIA QUERIES ------------------------------------------------------ */
+
+
+@media (max-width: 1020px) {
+    .flyer article {
+        margin-right: 35px;
+    }
+
+    .flyer article h2 {
+        width: 200px;
+        font-size: 1.5rem;
+    }
+
+    .cards {
+        height: 1200px;
+        flex-direction: column;
+    }
+    .suscription .email {
+        margin-right: 1rem;
+    }
+    .contacto {
+        height: 50vh;
+    }
+
+    .contacto input {
+        width: 75vw;
+    }
+}
+
+@media (max-width: 425px) {
+    #menu {
+        display: none;
+    }
+
+    body header {
+        display: none;
+    }
+
+    .banner span {
+        display: flex;
+    }
+
+    .banner img {
+        width: 55vw;
+        height: 45vh;
+        margin-left: 25px;
+    }
+
+    .banner span {
+        margin-right: 30px;
+    }
+
+    .flyer article {
+        margin-right: 35px;
+    }
+
+    .flyer article h2 {
+        width: 200px;
+        font-size: 1.5rem;
+    }
+
+    .destacados h2 {
+        font-size: 2rem;
+    }
+
+    .cards {
+        height: 1100px;
+    }
+
+    .contacto {
+        height: 50vh;
+    }
+
+    .contacto input {
+        width: 75vw;
+    }
+
+    .suscription {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 18vh;
+        gap: 15px;
+    }
+
+    .suscription .envelope h3 {
+        font-size: 1rem;
+    }
+
+    .suscription .email {
+        margin-right: 0;
+    }
+
+    .suscription .email input {
+        width: 220px;
+    }
+
+    .suscription .email button {
+        font-size: 0.8rem;
+        padding: 0rem 1rem;
+    }
+    
+}
