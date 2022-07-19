@@ -154,8 +154,9 @@ body {
     margin-bottom: 4vh;
 }
 
-.destecados p {
+.destacados p {
     color: #666666;
+    word-spacing: 1.5rem;
 }
 
 
@@ -549,6 +550,14 @@ footer {
 
     .derechos-reservados h2 {
         font-size: 0.8rem;
+    }
+
+    .destacados h2 {
+        font-size: 1.7rem;
+    }
+
+    .destacados p {
+        word-spacing: 0.8rem;
     }
 
 
