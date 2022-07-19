@@ -424,7 +424,7 @@ footer {
 /* -------------------------------------------- MEDIA QUERIES ------------------------------------------------------ */
 
 
-@media (max-width: 1020px) {
+@media (max-width: 1023px) {
     .flyer article {
         margin-right: 35px;
     }
@@ -515,7 +515,7 @@ footer {
     }
 
     .suscription .email input {
-        width: 220px;
+        width: 200px;
     }
 
     .suscription .email button {
@@ -523,4 +523,33 @@ footer {
         padding: 0rem 1rem;
     }
     
+    footer {
+        height: 60vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-datos-footer {
+        width: 80%;
+        padding-top: 30px;
+    }
+
+    .contenedor-logo-footer {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logo-footer {
+        position: relative;
+        right: 0%;
+    }
+
+    .derechos-reservados h2 {
+        font-size: 0.8rem;
+    }
+
+
 }
